@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: #0583F2;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.logo{
+    width: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.menu__item a{
+    color: #0D0D0D;
+    text-decoration: none;
+}
+    .menu__item.active a{
+        text-decoration: underline;
+    }
+
+.imagenPrincipal{
+    height: 100vh;
+    background-image: url("../img/ivan-rohovchenko-HNsMPksYbno-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.imagenPrincipal h2{
+    color: #0D0D0D;
+    background-color: #0d0d0d44;
+    padding-inline: 15px;
+}
+
+.imagenPrincipal p{
+    color: #0D0D0D;
+    background-color: #0d0d0d44;
+    text-align: center;
+}
+
+.tarjetas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+}
+.tarjeta{
+    background-color: #0583F2;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+.informacion{
+    padding: 0 20px 20px 20px;
+}
+
+.tarjeta__imagen{
+    max-width: 100%;
+}
+.tarjeta2{
+    flex: 1.5;
+}
+
+.pie{
+    background-color: #0583F2;
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
